@@ -12,18 +12,18 @@
  * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
  * ex. Windows 10
  
- ### Executing program
+ ### Executing programs
+This is a list of projects and startup instructions.
+
+ #### Temperature Converter
+The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths in centimeters, meters and the imaginary length of the seal.
  
- * How to run the program
- * Step-by-step bullets
- ```
- code blocks for commands
- ```
+* Open the temperatureConverter program module.
+* Run the `MainWindow` class
+
  
  ## Authors
  
  Contributors names and contact info
  
- ex. Dominique Pizzie  
- ex. [@DomPizzie](https://twitter.com/dompizzie)
  
