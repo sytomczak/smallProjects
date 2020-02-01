@@ -47,6 +47,14 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
    
  [Application demo video](https://www.google.com)
  
+ #### Encryption Scouts
+ The program encrypts and encrypts the entered word.
+ 
+ * Open the encryptionScouts program module.
+ * Run the `Main` class.
+ 
+ [Application demo video](https://www.google.com)
+
  ## Authors
  
 Sylwia Tomczak

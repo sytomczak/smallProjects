@@ -33,6 +33,8 @@
         <module>codeWars</module>
         <module>loveCalculator2</module>
         <module>rockPaperScissors</module>
+        <module>fizzBuzz</module>
+        <module>encryptionScouts</module>
     </modules>
 
     <dependencyManagement>
