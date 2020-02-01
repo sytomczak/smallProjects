@@ -15,6 +15,14 @@
  ### Executing programs
 This is a list of projects and startup instructions.
 
+ #### BMI Calculator
+ The program count bmi.
+ 
+ * Open the bmi-calculator program module.
+ * Run the `BmiCalculatorApplication` class.
+ 
+ [Application demo video](https://www.google.com)
+
  #### Temperature Converter
 The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths in centimeters, meters and the imaginary length of the seal.
  
