@@ -55,6 +55,14 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  
  [Application demo video](https://www.google.com)
 
+ #### Encryption Scouts
+ The  program converts the given days, hours and minutes into seconds.
+ 
+ * Open the calculateAgeInSeconds program module.
+ * Run the `Main` class.
+ 
+ [Application demo video](https://www.google.com)
+ 
  ## Authors
  
 Sylwia Tomczak

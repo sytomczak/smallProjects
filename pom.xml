@@ -35,6 +35,7 @@
         <module>rockPaperScissors</module>
         <module>fizzBuzz</module>
         <module>encryptionScouts</module>
+        <module>calkulateAgeInSecond</module>
     </modules>
 
     <dependencyManagement>
