@@ -18,6 +18,21 @@
         <module>temperatureConverter</module>
         <module>bmi-calculator</module>
         <module>file-explorer</module>
+        <module>count-words-in-string</module>
+        <module>reverse-a-string</module>
+        <module>magic-eight-ball</module>
+        <module>haiku-generator</module>
+        <module>internet-time</module>
+        <module>internet-time</module>
+        <module>password-generator</module>
+        <module>password-generator</module>
+        <module>randomSentenceGenerator</module>
+        <module>loveCalculator</module>
+        <module>rest-demo</module>
+        <module>hangman</module>
+        <module>codeWars</module>
+        <module>loveCalculator2</module>
+        <module>rockPaperScissors</module>
     </modules>
 
     <dependencyManagement>
@@ -26,7 +41,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
@@ -55,6 +73,26 @@
                 <version>3.11.1</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>3.1.0</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>28.0-jre</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -64,6 +102,14 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>8</source>
+                        <target>8</target>
+                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>

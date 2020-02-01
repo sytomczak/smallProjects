@@ -31,6 +31,22 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  
  [Application demo video](https://www.google.com)
 
+ #### Love Calculator 2
+  The program count how much in percentage points people with given names that match each other.
+  
+ * Open the loveCalculator2 program module.
+ * Run the `Main` class.
+  
+ [Application demo video](https://www.google.com)
+
+ #### Rock Papper Scissors
+  The program draws between: stone, paper, scissors after the player presses the button.
+
+ * Open the rockPaperScissors program module.
+ * Run the `Main` class.
+   
+ [Application demo video](https://www.google.com)
+ 
  ## Authors
  
 Sylwia Tomczak
