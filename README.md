@@ -15,6 +15,8 @@
  ### Executing programs
 This is a list of projects and startup instructions.
 
+
+
  #### BMI Calculator
  The program count bmi.
  
@@ -63,12 +65,20 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  
  [Application demo video](https://www.google.com)
 
- #### Encryption Scouts
- The  program converts the given days, hours and minutes into seconds.
+ #### Calculate Age In Second
+ The program converts the given days, hours and minutes into seconds.
  
  * Open the calculateAgeInSeconds program module.
  * Run the `Main` class.
  
+ [Application demo video](https://www.google.com)
+ 
+ #### Count Words In String
+ The program count words in String.
+  
+ * Open the count-words-in-string program module.
+ * Run the `RevarseAStringApplication` class.
+  
  [Application demo video](https://www.google.com)
  
  ## Authors
