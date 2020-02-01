@@ -22,6 +22,7 @@ This is a list of projects and startup instructions.
  
  * Open the bmi-calculator program module.
  * Run the `BmiCalculatorApplication` class.
+ * Make POST request in postman. Url: `localhost:8080/api/convertBmi`.
  
  [Application demo video](https://www.google.com)
 
@@ -75,12 +76,28 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  
  #### Count Words In String
  The program count words in String.
-  
+ 
  * Open the count-words-in-string program module.
  * Run the `RevarseAStringApplication` class.
+ * Make POST request in postman. Url: `localhost:8080/api/calculateFibonacci`.
   
  [Application demo video](https://www.google.com)
  
+ #### Fibonacci Sequence
+ The program count words in String.
+   
+ * Open the count-words-in-string program module.
+ * Run the `FibonacciSequenceApplication` class.
+   
+  [Application demo video](https://www.google.com)
+  
+  #### Fibonacci Sequence
+  The program count words in String.
+     
+  * Open the count-words-in-string program module.
+  * Run the `FibonacciSequenceApplication` class.
+     
+    [Application demo video](https://www.google.com)
  ## Authors
  
 Sylwia Tomczak
