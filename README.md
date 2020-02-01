@@ -21,9 +21,20 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
 * Open the temperatureConverter program module.
 * Run the `MainWindow` class
 
+[Application demo video](https://www.google.com)
+
+ #### File Explorer
+ The program open file.
  
+ * Open the file-explorer program module.
+ * Run the `FileExplorerService` class.
+ 
+ [Application demo video](https://www.google.com)
+
  ## Authors
  
- Contributors names and contact info
+Sylwia Tomczak
+[LinkedIn](https://www.linkedin.com/in/syltom/)
+
  
  

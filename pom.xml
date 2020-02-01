@@ -16,6 +16,8 @@
     <modules>
         <module>fibonacci-sequence</module>
         <module>temperatureConverter</module>
+        <module>bmi-calculator</module>
+        <module>file-explorer</module>
     </modules>
 
     <dependencyManagement>
