@@ -98,6 +98,14 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
   * Run the `Main` class.
      
   [Application demo video](https://www.google.com)
+  
+  #### Fizz Buzz
+  The program shows classic problem Haiku Generator.
+       
+  * Open the haiku-generator program module.
+  * Run the `HaikuGeneratorApplication` class.
+       
+  [Application demo video](https://www.google.com)
     
  ## Authors
  
