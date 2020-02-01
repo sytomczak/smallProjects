@@ -50,7 +50,7 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
   
  [Application demo video](https://www.google.com)
 
- #### Rock Papper Scissors
+ #### Rock Paper Scissors
   The program draws between: stone, paper, scissors after the player presses the button.
 
  * Open the rockPaperScissors program module.
@@ -79,7 +79,7 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  
  * Open the count-words-in-string program module.
  * Run the `RevarseAStringApplication` class.
- * Make POST request in postman. Url: `localhost:8080/api/calculateFibonacci`.
+ * Make POST request in postman. Url: `localhost:8080/api/countWords`.
   
  [Application demo video](https://www.google.com)
  
@@ -88,6 +88,7 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
    
  * Open the fibonacci-sequence program module.
  * Run the `FibonacciSequenceApplication` class.
+ * Make POST request in postman. Url: `localhost:8080/api/calculateFibonacci`.
    
   [Application demo video](https://www.google.com)
   
@@ -99,14 +100,34 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
      
   [Application demo video](https://www.google.com)
   
-  #### Fizz Buzz
+  #### Haiku Generator
   The program shows classic problem Haiku Generator.
        
   * Open the haiku-generator program module.
   * Run the `HaikuGeneratorApplication` class.
+  * Make GET request in postman. Url: `localhost:8080/api/getHaiku`.
        
   [Application demo video](https://www.google.com)
+  
+  #### Hangman
+  The program .
+         
+  * Open the  program module.
+  * Run the `` class.
+         
+  [Application demo video](https://www.google.com)
     
+  #### Internet Time
+  The program divides the day into 1000 ".beats". Each .beat is 1 minute and 26.4 seconds.
+             
+  * Open the internet-time program module.
+  * Run the `InternetTimeApplication` class.
+  * Make GET request in postman. Url: `localhost:8080/api/getTime/22`.
+
+            
+  [Application demo video](https://www.google.com)
+  
+  
  ## Authors
  
 Sylwia Tomczak
