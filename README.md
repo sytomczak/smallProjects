@@ -84,20 +84,21 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  [Application demo video](https://www.google.com)
  
  #### Fibonacci Sequence
- The program count words in String.
+ The program shows classic counts fibonacci sequence.
    
- * Open the count-words-in-string program module.
+ * Open the fibonacci-sequence program module.
  * Run the `FibonacciSequenceApplication` class.
    
   [Application demo video](https://www.google.com)
   
-  #### Fibonacci Sequence
-  The program count words in String.
+  #### Fizz Buzz
+  The program shows classic problem Fizz Buzz.
      
-  * Open the count-words-in-string program module.
-  * Run the `FibonacciSequenceApplication` class.
+  * Open the fizzBuzz program module.
+  * Run the `Main` class.
      
-    [Application demo video](https://www.google.com)
+  [Application demo video](https://www.google.com)
+    
  ## Authors
  
 Sylwia Tomczak
