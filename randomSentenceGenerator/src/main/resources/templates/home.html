@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sentence Generator</title>
+
+    <link rel="stylesheet" href="../static/main.css" th:href="@{/main.css}" type="text/css"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+</head>
+
+<body>
+
+<div id="gameArea">
+    <form action="#" th:action="@{/callback}" th:object="${stats}" method="post">
+        <div class="logo">
+            <span th:text="${pageTitle}">Page Title</span>
+        </div>
+
+        <div class="instruction">
+            <p class="instruction-title" th:text="${instructionTitle}">Title</p>
+            <p class="instruction-contents" th:text="${instructionContents}">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Vivamus egestas sit
+                amet quam vel euismod. Quisque maximus varius feugiat. Mauris a dui aliquet, scelerisque neque in,
+                interdum. </p>
+        </div>
+
+
+        <div class="content">
+
+            <div class = "submitResult">
+                <input type="submit" value="check" th:value="${checkSubmit}" class="checkSubmit" name="action" id="sentence"/>
+
+                <div class="logoPassword">
+                    <p class="password-content" th:text="${sentence}"> Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>

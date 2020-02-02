@@ -1,0 +1,49 @@
+body {
+    background-color: LimeGreen;
+}
+
+#gameArea {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: LimeGreen;
+}
+
+.logo {
+    background-color: LimeGreen;
+    color: Gold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 44px;
+    font-weight: 16px;
+    letter-spacing: 3px;
+}
+
+.instruction {
+    float: left;
+    background-color: LimeGreen;
+    color: Blue;
+    width: 120px;
+    min-height: 620px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 3px;
+}
+.content {
+    background-color: LimeGreen;
+    float: left;
+    padding: 20px;
+    width: 640px;
+    text-align: center;
+}
+
+.logoPassword {
+    background-color: LimeGreen;
+    color: Aquamarine;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 16px;
+    letter-spacing: 3px;
+}

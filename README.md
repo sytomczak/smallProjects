@@ -135,7 +135,14 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
   
   [Application demo video](https://www.google.com)
   
-  
+  #### Random Sentence Generator
+  The program generates random sentence.
+                 
+  * Open the randomSentenceGenerator program module.
+  * Run the `RandomSentenceGeneratorApplication` class.
+  * Enter `localhost:8080` in the browser.
+    
+  [Application demo video](https://www.google.com)
   
  ## Authors
  
