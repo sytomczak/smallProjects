@@ -25,12 +25,12 @@
         <module>loveCalculator</module>
         <module>rest-demo</module>
         <module>hangman</module>
-        <module>codeWars</module>
         <module>loveCalculator2</module>
         <module>rockPaperScissors</module>
         <module>fizzBuzz</module>
         <module>encryptionScouts</module>
         <module>calkulateAgeInSecond</module>
+        <module>hangman</module>
     </modules>
 
     <dependencyManagement>
@@ -56,11 +56,6 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
                 <version>3.1.0</version>
@@ -74,6 +69,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>2.1.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.8</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

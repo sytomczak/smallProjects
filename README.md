@@ -123,9 +123,18 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
   * Open the internet-time program module.
   * Run the `InternetTimeApplication` class.
   * Make GET request in postman. Url: `localhost:8080/api/getTime/22`.
-
             
   [Application demo video](https://www.google.com)
+  
+  #### Love Calculator
+  The program provides a score from 0% to 100% that is meant to be an indication of a match in terms of love, based on the names of two people. 
+               
+  * Open the loveCalculator program module.
+  * Run the `LoveCalculatorApplication` class.
+  * Enter `localhost:8080` in the browser.
+  
+  [Application demo video](https://www.google.com)
+  
   
   
  ## Authors
