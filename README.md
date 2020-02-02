@@ -144,6 +144,14 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
     
   [Application demo video](https://www.google.com)
   
+  #### Password Generator 
+  The program generates WEAK, MEDIUM or STRONG password.
+                   
+  * Open the password-generator program module.
+  * Run the `PasswordGeneratorApplication` class.
+  * Make a GET request to `http://localhost:8080/api/getPassword/<password-strength>` where `<password-strength>` is either `WEAK`, `MEDIUM` or `STRONG`
+  
+    [Application demo video](https://www.google.com)
  ## Authors
  
 Sylwia Tomczak
