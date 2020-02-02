@@ -152,6 +152,21 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
   * Make a GET request to `http://localhost:8080/api/getPassword/<password-strength>` where `<password-strength>` is either `WEAK`, `MEDIUM` or `STRONG` 
   
     [Application demo video](https://www.google.com)
+    
+#### Reverse A String
+Application that reverses the Strings
+
+* Open the reverse-a-string program module.
+* Run the`ReverseAStringApplication` class.
+* Make a POST request to `http://localhost:8080/api/reverseString` with body compliant to that of the example
+```
+{
+	"reversedString": "sample String"
+}
+```
+ 
+   [Application demo video](https://www.google.com)
+
  
  #### Magic 8 Ball 
    This is the simulation of classic magic ball
