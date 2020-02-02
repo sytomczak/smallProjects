@@ -2,9 +2,7 @@
 A collection of small training projects
  
 ## Description
- 
-An in-depth paragraph about your project and overview of use.
- 
+The repository is used to store small projects in various technologies 
 
 ## Technologies 
 Here is the list of technologies that were used during development of these micro-projects:
