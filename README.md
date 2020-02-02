@@ -43,7 +43,7 @@ The program converts temperature to degrees: Celsius, Farenheit. Kelvin. Lengths
  [Application demo video](https://www.google.com)
 
  #### Love Calculator 2
-  The program count how much in percentage points people with given names that match each other.
+ The program provides a score from 0% to 100% that is meant to be an indication of a match in terms of love, based on the names of two people.
   
  * Open the loveCalculator2 program module.
  * Run the `Main` class.
