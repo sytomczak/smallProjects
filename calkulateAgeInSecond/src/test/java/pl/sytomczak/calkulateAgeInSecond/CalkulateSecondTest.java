@@ -8,21 +8,21 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalkulateSecondTest {
 
 
-@Test
+    @Test
     public void shouldConvertMinutesToSecond() {
-    int result = CalkulateSecond.convert(0, 0, 1);
-    assertThat(result).isEqualTo(60);
-}
+        int result = CalkulateSecond.convert(0, 0, 1);
+        assertThat(result).isEqualTo(60);
+    }
 
-@Test
+    @Test
     public void shouldConvertHoursToSecond() {
-    int result = CalkulateSecond.convert(0, 1, 0);
-    assertThat(result).isEqualTo(3600);
-}
+        int result = CalkulateSecond.convert(0, 1, 0);
+        assertThat(result).isEqualTo(3600);
+    }
 
-@Test
+    @Test
     public void shouldConvetDaysToSecond() {
-    int result = CalkulateSecond.convert(1, 0, 0);
-    assertThat(result).isEqualTo(86400);
-}
+        int result = CalkulateSecond.convert(1, 0, 0);
+        assertThat(result).isEqualTo(86400);
+    }
 }

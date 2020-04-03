@@ -29,6 +29,7 @@
         <module>encryptionScouts</module>
         <module>calkulateAgeInSecond</module>
         <module>hang-man</module>
+        <module>notepad</module>
     </modules>
 
     <dependencyManagement>

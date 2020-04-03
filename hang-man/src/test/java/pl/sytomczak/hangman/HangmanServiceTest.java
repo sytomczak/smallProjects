@@ -89,7 +89,7 @@ public class HangmanServiceTest {
         int numberOfChances = service.getChances();
 
         for (int i = 11; i != 0; i--) {
-            if(!service.checkIfLetterInTheWord(null)) service.subtractChances();
+            if (!service.checkIfLetterInTheWord(null)) service.subtractChances();
         }
         //TODO: fix it
     }

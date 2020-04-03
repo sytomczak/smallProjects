@@ -32,13 +32,15 @@ public class MagicEightBallRepository {
     }
 
     public String getSentence(int index) {
-        if(index < 0 || index > sentenceBase.size() -1)
+        if (index < 0 || index > sentenceBase.size() - 1)
             return sentenceBase.get(0).getSentence();
         else
             return sentenceBase.get(index).getSentence();
     }
 
-    public int getNumberOfSentence() {return sentenceBase.size();}
+    public int getNumberOfSentence() {
+        return sentenceBase.size();
+    }
 
     private MagicEightBallWrapper sentence0 = MagicEightBallWrapper.of().index(0).sentence("It is certain.").build();
     private MagicEightBallWrapper sentence1 = MagicEightBallWrapper.of().index(1).sentence("As I see it, yes.").build();

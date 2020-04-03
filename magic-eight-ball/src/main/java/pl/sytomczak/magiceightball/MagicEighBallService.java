@@ -11,7 +11,9 @@ public class MagicEighBallService {
     private MagicEightBallRepository repository;
 
     @Autowired
-    public MagicEighBallService(MagicEightBallRepository repository) {this.repository = repository;}
+    public MagicEighBallService(MagicEightBallRepository repository) {
+        this.repository = repository;
+    }
 
     public String generateSentence() {
         int numberOfSentene = repository.getNumberOfSentence();

@@ -12,41 +12,43 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class PasswordGeneratorApplicationTests {
 
-	@Autowired
-	private PasswordGeneratorService service;
+    @Autowired
+    private PasswordGeneratorService service;
 
-	@Test
-	public void shouldGenerateEasyPassword() {
-		PasswordWrapper password = service.generatePassword(PasswordLength.WEAK);
-		assertThat(password.getPassword()).isNotBlank();
-	}
-	@Test
-	public void shouldGenerateMediumPassword() {
-		PasswordWrapper password = service.generatePassword(PasswordLength.MEDIUM);
-		assertThat(password.getPassword()).isNotBlank();
-	}
-	@Test
-	public void shouldGenerateHardPassword() {
-		PasswordWrapper password = service.generatePassword(PasswordLength.STRONG);
-		assertThat(password.getPassword()).isNotBlank();
-	}
+    @Test
+    public void shouldGenerateEasyPassword() {
+        PasswordWrapper password = service.generatePassword(PasswordLength.WEAK);
+        assertThat(password.getPassword()).isNotBlank();
+    }
 
-	@Test
-	public void shouldCheckIfEasyPasswordHaveSixMarks() {
-		PasswordWrapper password = service.generatePassword(PasswordLength.WEAK);
-		assertThat(password.getPassword().length()).isEqualTo(6);
-	}
+    @Test
+    public void shouldGenerateMediumPassword() {
+        PasswordWrapper password = service.generatePassword(PasswordLength.MEDIUM);
+        assertThat(password.getPassword()).isNotBlank();
+    }
 
-	@Test
-	public void shouldCheckIfMediumPasswordHaveEightMarks() {
-		PasswordWrapper password = service.generatePassword(PasswordLength.MEDIUM);
-		assertThat(password.getPassword().length()).isEqualTo(8);
-	}
+    @Test
+    public void shouldGenerateHardPassword() {
+        PasswordWrapper password = service.generatePassword(PasswordLength.STRONG);
+        assertThat(password.getPassword()).isNotBlank();
+    }
 
-	@Test
-	public void shouldCheckIfHardPasswordHaveTenMarks() {
-		PasswordWrapper password = service.generatePassword(PasswordLength.STRONG);
-		assertThat(password.getPassword().length()).isEqualTo(10);
+    @Test
+    public void shouldCheckIfEasyPasswordHaveSixMarks() {
+        PasswordWrapper password = service.generatePassword(PasswordLength.WEAK);
+        assertThat(password.getPassword().length()).isEqualTo(6);
+    }
 
-	}
+    @Test
+    public void shouldCheckIfMediumPasswordHaveEightMarks() {
+        PasswordWrapper password = service.generatePassword(PasswordLength.MEDIUM);
+        assertThat(password.getPassword().length()).isEqualTo(8);
+    }
+
+    @Test
+    public void shouldCheckIfHardPasswordHaveTenMarks() {
+        PasswordWrapper password = service.generatePassword(PasswordLength.STRONG);
+        assertThat(password.getPassword().length()).isEqualTo(10);
+
+    }
 }

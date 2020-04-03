@@ -19,5 +19,7 @@ public class SentenceController {
     }
 
     @GetMapping("/askMagicBall")
-    public ResponseEntity generateSentence() { return ResponseEntity.ok(service.generateSentence());}
+    public ResponseEntity generateSentence() {
+        return ResponseEntity.ok(service.generateSentence());
+    }
 }

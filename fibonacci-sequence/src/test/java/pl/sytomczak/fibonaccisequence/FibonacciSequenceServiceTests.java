@@ -8,17 +8,17 @@ import static org.assertj.core.api.AssertionsForClassTypes.in;
 
 public class FibonacciSequenceServiceTests {
 
-	private FibonacciSequenceService service = new FibonacciSequenceService();
+    private FibonacciSequenceService service = new FibonacciSequenceService();
 
-	@Test
-	public void shouldCheckIfInputReturnCorrectFibonacciSequence_givenFibonacciSequence() {
-		int inputNumberOfNumbersInFibonacciSequence = 10;
-		int outputCalculateFibonacciSequence = 55;
+    @Test
+    public void shouldCheckIfInputReturnCorrectFibonacciSequence_givenFibonacciSequence() {
+        int inputNumberOfNumbersInFibonacciSequence = 10;
+        int outputCalculateFibonacciSequence = 55;
 
-		int result = service.calculateFibonacciSequence(inputNumberOfNumbersInFibonacciSequence);
+        int result = service.calculateFibonacciSequence(inputNumberOfNumbersInFibonacciSequence);
 
-		assertThat(result).isEqualTo(outputCalculateFibonacciSequence);
+        assertThat(result).isEqualTo(outputCalculateFibonacciSequence);
 
-	}
+    }
 
 }

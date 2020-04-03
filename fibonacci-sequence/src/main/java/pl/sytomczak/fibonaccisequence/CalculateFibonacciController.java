@@ -18,7 +18,9 @@ public class CalculateFibonacciController {
         this.service = service;
     }
 
-    public CalculateFibonacciController() {this.service = new FibonacciSequenceService();}
+    public CalculateFibonacciController() {
+        this.service = new FibonacciSequenceService();
+    }
 
     @PostMapping("/calculateFibonacci")
     public ResponseEntity calculateFibonacci(@RequestBody FibonacciSequenceWrapper calculateBody) {

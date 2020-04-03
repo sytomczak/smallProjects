@@ -28,8 +28,11 @@ public class HomeController {
 
 
     private LoveCalculatorService service;
+
     @Autowired
-    public HomeController(LoveCalculatorService service) { this.service = service; }
+    public HomeController(LoveCalculatorService service) {
+        this.service = service;
+    }
 
     @GetMapping("/")
     public String showHomePage(Model model, Names names) {
@@ -37,7 +40,7 @@ public class HomeController {
         return "home";
     }
 
-    @PostMapping(value = "/callback", params = "action="+StringConstants.CHECK_BUTTON)
+    @PostMapping(value = "/callback", params = "action=" + StringConstants.CHECK_BUTTON)
     public String calculate(Model model, @ModelAttribute Names names) {
         populateStaticContent(model);
 
@@ -47,7 +50,7 @@ public class HomeController {
         return "home";
     }
 
-    @PostMapping(value = "/callback", params = "action="+StringConstants.CLOSE_BUTTON_LABEL)
+    @PostMapping(value = "/callback", params = "action=" + StringConstants.CLOSE_BUTTON_LABEL)
     public String endTheGame(Model model, @ModelAttribute Names names) {
         populateStaticContent(model);
 

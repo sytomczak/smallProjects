@@ -37,8 +37,8 @@ public class MainWindow {
         });
     }
 
-    public void setUnits(){
-        if(temperatureRadioButton.isSelected()){
+    public void setUnits() {
+        if (temperatureRadioButton.isSelected()) {
             ListModel model = new DefaultListModel();
             ((DefaultListModel) model).add(0, "C");
             ((DefaultListModel) model).add(1, "F");

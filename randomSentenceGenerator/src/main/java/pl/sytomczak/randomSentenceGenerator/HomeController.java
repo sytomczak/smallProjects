@@ -22,7 +22,9 @@ public class HomeController {
     private RandomSentenceGeneratorService service;
 
     @Autowired
-    public HomeController(RandomSentenceGeneratorService service) {this.service = service;}
+    public HomeController(RandomSentenceGeneratorService service) {
+        this.service = service;
+    }
 
     @GetMapping("/")
     public String showHomePage(Model model) {
@@ -30,7 +32,7 @@ public class HomeController {
         return "home";
     }
 
-    @PostMapping(value = "/callback", params = "action="+StringConstants.CHECK_BUTTON)
+    @PostMapping(value = "/callback", params = "action=" + StringConstants.CHECK_BUTTON)
     public String choseSentence(Model model) {
         populateStaticContent(model);
 
@@ -39,7 +41,7 @@ public class HomeController {
         return "home";
     }
 
-    private void populateStaticContent(Model model){
+    private void populateStaticContent(Model model) {
         model.addAttribute(PAGE_TITLE_CLASS_NAME, StringConstants.PAGE_TITLE);
         model.addAttribute(INSTRUCTION_TITLE_CLASS_NAME, StringConstants.INSTRUCTION_TITLE);
         model.addAttribute(INSTRUCTION_CONTENTS_CLASS_NAME, StringConstants.INSTRUCTION_CONTENTS);

@@ -29,7 +29,7 @@ public class Main {
         });
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         JFrame frame = new JFrame("CalkulateAgeInSecond");
         frame.setContentPane(new Main().JPanel);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

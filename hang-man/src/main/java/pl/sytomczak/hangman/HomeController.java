@@ -40,7 +40,7 @@ public class HomeController {
     @PostMapping("/callback")
     public String getBackToHome(Model model, @ModelAttribute HangmanStats stats) {
         populateStaticContent(model);
-        if(service.isGameFinished()) {
+        if (service.isGameFinished()) {
             service.restartTheGame();
         } else {
             Character typedLetter = stats.getTypedLetter();

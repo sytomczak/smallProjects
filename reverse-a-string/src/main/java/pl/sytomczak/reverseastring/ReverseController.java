@@ -8,10 +8,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 public class ReverseController {
 
-    private  ReverseStringService service;
+    private ReverseStringService service;
 
     @Autowired
-    public ReverseController(ReverseStringService service) {this.service = service;}
+    public ReverseController(ReverseStringService service) {
+        this.service = service;
+    }
 
     @PostMapping("/reverseString")
     public ResponseEntity reverseString(@RequestBody ReverseStringWrapper reverseRequestBody) {

@@ -20,9 +20,9 @@ public class Main {
                 String input = EnterThePAswordTextField.getText();
                 String result = "";
 
-                if(encryptRadioButton.isSelected()){
+                if (encryptRadioButton.isSelected()) {
                     result = SzyfrowanieHarcerze.decryptEncrypt(input, Constants.encryptorKey);
-                }else{
+                } else {
                     result = SzyfrowanieHarcerze.decryptEncrypt(input, Constants.decryptorKey);
                 }
 

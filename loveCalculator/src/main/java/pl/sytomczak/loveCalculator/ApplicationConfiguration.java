@@ -10,5 +10,5 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @ComponentScan("pl.sytomczak.loveCalculator")
-public class ApplicationConfiguration  implements WebMvcConfigurer {
+public class ApplicationConfiguration implements WebMvcConfigurer {
 }

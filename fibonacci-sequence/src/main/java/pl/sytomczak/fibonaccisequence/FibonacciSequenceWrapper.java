@@ -8,6 +8,8 @@ import lombok.Setter;
 public class FibonacciSequenceWrapper {
     private Integer calculateFibonacci;
 
-    public Integer getCalculateFibonacci() {return calculateFibonacci;}
+    public Integer getCalculateFibonacci() {
+        return calculateFibonacci;
+    }
 }
 

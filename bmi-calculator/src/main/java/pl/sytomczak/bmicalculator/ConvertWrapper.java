@@ -10,7 +10,12 @@ public class ConvertWrapper {
     private Integer convertWeight;
     private Integer convertHeight;
 
-    public Integer getConvertWeight() {return convertWeight;}
-    public Integer getConvertHeight() {return convertHeight;}
+    public Integer getConvertWeight() {
+        return convertWeight;
+    }
+
+    public Integer getConvertHeight() {
+        return convertHeight;
+    }
 
 }

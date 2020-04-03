@@ -10,6 +10,8 @@ public enum NumberOfSyllableWords {
     @Getter
     private int numberOfSyllable;
 
-    NumberOfSyllableWords(int numberOfSyllable) { this.numberOfSyllable = numberOfSyllable; }
+    NumberOfSyllableWords(int numberOfSyllable) {
+        this.numberOfSyllable = numberOfSyllable;
+    }
 }
 

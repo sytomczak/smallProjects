@@ -27,7 +27,7 @@ public class ConvertControllerTest {
         wrapper.setConvertWeight(62);
 
         int resultBmi = 24;
-        when(service.checkIfInputsReturnCorrectBmi(anyInt(),anyInt())).thenReturn(resultBmi);
+        when(service.checkIfInputsReturnCorrectBmi(anyInt(), anyInt())).thenReturn(resultBmi);
 
         ResponseEntity response = controller.convertWeight(wrapper);
 

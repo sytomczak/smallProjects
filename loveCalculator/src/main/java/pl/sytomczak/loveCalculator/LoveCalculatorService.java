@@ -104,7 +104,7 @@ public class LoveCalculatorService {
     private void endTheGame(GameEndingType endingType) {
 
         if (endingType.equals(GameEndingType.CLOSE_BUTTON_LABEL)) ;
-           setGameEndingLabel(StringConstants.CLOSE_BUTTON_LABEL);
+        setGameEndingLabel(StringConstants.CLOSE_BUTTON_LABEL);
         gameFinished = true;
     }
 

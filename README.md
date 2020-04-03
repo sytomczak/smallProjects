@@ -23,6 +23,12 @@ Here is the list of technologies that were used during development of these micr
 ### Executing programs
 This is a list of projects and startup instructions.
 
+#### Notepad
+The program serves as notebook with individual functions: New, Open, Save, Save as, Close/ Cut, Copy, Paste, Select all/ Search.
+
+* Open the notepad program module.
+* Run the `MainWindow` class
+
 #### BMI Calculator
 The program count bmi.
  

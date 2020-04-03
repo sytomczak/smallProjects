@@ -23,7 +23,7 @@ public class Main {
         });
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         JFrame frame = new JFrame("RockPaperScissors");
         frame.setContentPane(new Main().JPanel);
@@ -41,17 +41,17 @@ public class Main {
 
         double wartoscRzutu = 0;
 
-        if(gracz == "A"){
+        if (gracz == "A") {
             wartoscRzutu = randomGraczA;
-        }else{
+        } else {
             wartoscRzutu = randomGraczB;
         }
 
-        if(wartoscRzutu <= 0.33){
+        if (wartoscRzutu <= 0.33) {
             return "kamień";
-        }else if(wartoscRzutu >= 0.66){
-            return  "nożyce";
-        }else{
+        } else if (wartoscRzutu >= 0.66) {
+            return "nożyce";
+        } else {
             return "papier";
         }
     }

@@ -13,20 +13,20 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class MagicEightBallServiceTest {
 
-	@Mock
-	private MagicEightBallRepository repository;
-	@InjectMocks
-	private MagicEighBallService service;
+    @Mock
+    private MagicEightBallRepository repository;
+    @InjectMocks
+    private MagicEighBallService service;
 
-	@Test
-	public void shouldGenerateSentence() {
-		when (repository.getNumberOfSentence()).thenReturn(6);
-		when (repository.getSentence(anyInt())).thenReturn("sentence");
+    @Test
+    public void shouldGenerateSentence() {
+        when(repository.getNumberOfSentence()).thenReturn(6);
+        when(repository.getSentence(anyInt())).thenReturn("sentence");
 
-		String sentence = service.generateSentence();
+        String sentence = service.generateSentence();
 
-		assertThat(sentence).isNotBlank();
+        assertThat(sentence).isNotBlank();
 
-	}
+    }
 
 }
