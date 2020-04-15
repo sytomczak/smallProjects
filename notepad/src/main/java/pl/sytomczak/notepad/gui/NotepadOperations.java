@@ -19,18 +19,17 @@ public class NotepadOperations {
 
         this.textArea = textArea;
         this.panel = panel;
-
     }
 
     public void New() {
         if (textArea == null)
             return;
         if (filePath != null)
-            if (JOptionPane.showConfirmDialog(JOptionPane.getRootFrame(), "Do you want to overwrite changes") == 0)
+            if (JOptionPane.showConfirmDialog(JOptionPane.getRootFrame(), "Do you want to overwrite changes?") == 0)
                 SaveNew();
+
         textArea.selectAll();
         textArea.replaceSelection("");
-
     }
 
     public File OpenOrSaveDialog(Boolean openOrSave) {
@@ -150,7 +149,6 @@ public class NotepadOperations {
         StringSelection cutSelection = new StringSelection(cutString);
         clipboard.setContents(cutSelection, cutSelection);
         textArea.replaceRange("", textArea.getSelectionStart(), textArea.getSelectionEnd());
-
     }
 
     public void Copy() {
@@ -163,7 +161,6 @@ public class NotepadOperations {
         clipboard.setContents(copySelection, copySelection);
     }
 
-
     public void Paste() {
         Clipboard clipboard;
         clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
@@ -175,22 +172,13 @@ public class NotepadOperations {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     public void SelectAll() {
        textArea.selectAll();
     }
 
-
-    class myHighlighter extends DefaultHighlighter.DefaultHighlightPainter{
-        public  myHighlighter(Color color) {
-            super(color);
-        }
-    }
-
     DefaultHighlighter.HighlightPainter highlightPainter = new myHighlighter(Color.yellow);
-
 
     public void removeHighLight(JTextComponent textComponent){
         Highlighter removeHighlighter = textComponent.getHighlighter();
@@ -202,6 +190,7 @@ public class NotepadOperations {
             }
         }
     }
+
     public void Search(JTextComponent textComponent, String textString){
         removeHighLight(textComponent);
 
@@ -218,5 +207,11 @@ public class NotepadOperations {
         } catch (BadLocationException e) {
             e.printStackTrace();
         }
+    }
+}
+
+class myHighlighter extends DefaultHighlighter.DefaultHighlightPainter {
+    public  myHighlighter(Color color) {
+        super(color);
     }
 }
