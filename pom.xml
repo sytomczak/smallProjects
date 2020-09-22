@@ -30,6 +30,7 @@
         <module>calkulateAgeInSecond</module>
         <module>hang-man</module>
         <module>notepad</module>
+        <module>palindrome</module>
     </modules>
 
     <dependencyManagement>

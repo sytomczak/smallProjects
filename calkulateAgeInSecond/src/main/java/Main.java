@@ -1,4 +1,4 @@
-import pl.sytomczak.calkulateAgeInSecond.CalkulateSecond;
+import pl.sytomczak.palindrome.calkulateAgeInSecond.CalkulateSecond;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

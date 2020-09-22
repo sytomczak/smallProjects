@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pl.sytomczak.palindrome.notepad.gui.InformationWindow">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="551" height="400"/>
+    </constraints>
+    <properties>
+      <enabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a0a93" class="javax.swing.JTextArea" binding="authorJPanel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-720900"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Droid Sans Mono" size="12" style="1"/>
+          <text value="Author:&#10; &#10;Sylwia Tomczak&#10;[Gmail] (sylwia.tomczak95@gmail.com)&#10;[LinkedIn] (https://www.linkedin.com/in/syltom/) &#10;[Github] (https://github.com/sytomczak?tab=repositories)&#10;"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
