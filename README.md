@@ -171,6 +171,11 @@ Classic hangman-style game, where player has to guess the word character-by-char
 * Open the `http://localhost:8080` in Your browser 
     
     
+#### Palindrome
+The program checks if the given phrase id the same after inversion, it skips whitespace and numbers.
+     
+* Open the palindrome program module.
+* Run the `Palindrome` class.
 
 ## Authors
  
