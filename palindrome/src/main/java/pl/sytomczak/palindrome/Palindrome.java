@@ -10,24 +10,27 @@ public class Palindrome {
 
     public static boolean isPalindrome(String inputString) {
 
-        int numberOfLetterInInputString = inputString.length() -1;
+        int numberOfLetterInInputString = inputString.length() - 1;
         int passageThoughLetters = 0;
         inputString = inputString.toLowerCase();
 
-        while(passageThoughLetters<= numberOfLetterInInputString){
+        while (passageThoughLetters <= numberOfLetterInInputString) {
 
-            char firstLetterInInputString =  inputString.charAt(passageThoughLetters);
+            char firstLetterInInputString = inputString.charAt(passageThoughLetters);
             char lastLetterInInputString = inputString.charAt(numberOfLetterInInputString);
 
-            if(!(firstLetterInInputString >= 'a' && firstLetterInInputString <= 'z')) {
+            if (!(firstLetterInInputString >= 'a' && firstLetterInInputString <= 'z')) {
                 passageThoughLetters++;
-            } else if (!(lastLetterInInputString >= 'a' && lastLetterInInputString <= 'z')) {
-                numberOfLetterInInputString --;
-            } else if (lastLetterInInputString == firstLetterInInputString) {
+            }
+            if (!(lastLetterInInputString >= 'a' && lastLetterInInputString <= 'z')) {
+                numberOfLetterInInputString--;
+            }
+            if (lastLetterInInputString == firstLetterInInputString) {
                 numberOfLetterInInputString--;
                 passageThoughLetters++;
             } else return false;
-        } return true;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
